@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap');
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(122, 122, 122) !important;
+}
+
+.company-logo {
+    color: black !important;
+    margin-left: 5px !important;
+    font-size: 40px;
+}
+
+.fa-bell {
+    color: black;
+    font-size: 40px;
+    transform: rotate(45deg);
+}
+
+.navbarbtn>input {
+    border-radius: 10px;
+}
+
+.navbarbtn>button {
+    background-color: black !important;
+    border-radius: 10px;
+    color: white;
+}
+
+.navbarbtn>button:hover {
+    background-color: rgb(44, 44, 44) !important;
+    color: white;
+}
+
+/* Buttons Css */
+
+.buttonsbg {
+    background-color: rgb(122, 122, 122);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.all-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.all-buttons>button {
+    background-color: black !important;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    box-shadow: none !important;
+}
+
+.all-buttons>button:hover {
+    background-color: rgb(44, 44, 44) !important;
+    color: white;
+}
+
+.mainCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    width: 400px;
+    margin-bottom: 20px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.card-header {
+    background-color: black;
+    color: white;
+}
+
+.card-body>img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+a.details {
+    text-decoration: none !important;
+    color: white !important;
+}
+
+button.detailsbtn {
+    background-color: black !important;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    box-shadow: none !important;
+}
+
+button.detailsbtn:hover {
+    background-color: rgb(44, 44, 44) !important;
+    color: white;
+}
+
+/* Google Trnslator */
+
+.VIpgJd-ZVi9od-LgbsSe button {
+    background-color: black !important;
+    color: white !important;
+    padding-right: 10px !important;
+    padding-left: 10px !important;
+}
+
+/* Footer */
+
+.info {
+    height: 100px;
+    background-color: rgb(122, 122, 122);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.built>h4,
+.contact>h4 {
+    margin-bottom: 0px !important;
+}
+
+.socialMediaIcons {
+    display: flex;
+    gap: 20px;
+}
+
+.socialMediaIcons>a {
+    color: inherit;
+}
+
+.socialMediaIcons>a>i {
+    font-size: 30px;
+}
+
+/* Responsive Css */
+
+@media only screen and (max-width: 543px) {
+    .all-buttons {
+        gap: 10px !important;
+    }
+
+}
+
+@media only screen and (max-width: 458px) {
+    .all-buttons {
+        flex-direction: column;
+        gap: 10px !important;
+    }
+
+}
+
+@media only screen and (max-width: 420px) {
+    .mainCard {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
